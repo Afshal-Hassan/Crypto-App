@@ -1,10 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import { makeStyles } from '@material-ui/core';
+const useStyles=makeStyles(()=>({
+  App:{
+    backgroundColor:"#14161a",
+    color:"white",
+    minHeight:"100vh"
 
+  }
+}))
 function App() {
+  const classes=useStyles();
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className={classes.App}>
+      <Header/>
     </div>
   );
 }
