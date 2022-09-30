@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/material';
 const useStyles=makeStyles(()=>({
   App:{
     backgroundColor:"#14161a",
