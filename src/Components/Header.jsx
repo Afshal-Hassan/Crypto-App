@@ -1,5 +1,5 @@
 import React from 'react'
-import AppBar from '@material-ui/core/AppBar'
+import AppBar from '@mui/material/AppBar'
 import { Container, createTheme, makeStyles, MenuItem, Select, ThemeProvider, Toolbar, Typography } from '@material-ui/core';
 import {useHistory} from "react-router-dom";
 
