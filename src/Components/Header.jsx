@@ -13,7 +13,7 @@ import {useHistory} from "react-router-dom";
 const useStyles=makeStyles(()=>({
     title:{
         flex:1,
-        color:"blue",
+        color:"green",
         fontFamily:"Montserrat",
         fontWeight:"bold",
         cursor:"pointer",
