@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar'
-import { makeStyles } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import {Container} from '@mui/material';
 import { createTheme } from '@mui/material';
 import { ThemeProvider } from '@mui/material';
