@@ -1,7 +1,7 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar'
-import { makeStyles } from '@material-ui/core';
 import {Container} from '@mui/material';
+import '../Header/Header.css'
 import { createTheme } from '@mui/material';
 import { ThemeProvider } from '@mui/material';
 import {MenuItem} from '@mui/material';
@@ -10,20 +10,10 @@ import {Toolbar} from '@mui/material';
 import {Typography} from '@mui/material';
 import {useHistory} from "react-router-dom";
 
-const useStyles=makeStyles(()=>({
-    title:{
-        flex:1,
-        color:"yellow",
-        fontFamily:"Montserrat",
-        fontWeight:"bold",
-        cursor:"pointer",
-        
-    }
-}))
+
 
 function Header() {
     const history=useHistory();
-    const classes =useStyles();
     const darkTheme=createTheme({
         palette:{
             primary:{
@@ -38,12 +28,10 @@ function Header() {
     <AppBar color='transparent' position='static'>
         <Container>
             <Toolbar>
-                <Typography className={classes.title} onClick={()=>{
+                <Typography className="title" onClick={()=>{
                     history.push("/");
                 }}>Crypto Coins</Typography>
-                <Select variant='outlined' style={{
-                    width:100,height:40,marginRight:15
-                }}>
+                <Select variant='outlined' className='Select'>
                     <MenuItem value={"USD"}>USD</MenuItem>
                     <MenuItem value={"PKR"}>PKR</MenuItem>
                 </Select>

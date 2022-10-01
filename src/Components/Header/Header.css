@@ -1,0 +1,13 @@
+.title{
+    flex: 1;
+    color: gold;
+    font-family: "Montserrat";
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+.Select{
+    width: 100px;
+    height: 40px;
+    margin-right: 15px;
+}
