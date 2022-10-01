@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=PT+Sans&display=swap');
+.Crypto-by-MarketCap{
+    font-family: 'Montserrat', sans-serif;
+}
+.Search{
+    color: darkgray;
+}
+.table-head{
+    border: none;
+    outline: none;
+}
+.Row-Body{
+    font-family: 'Montserrat', sans-serif;
+
+}

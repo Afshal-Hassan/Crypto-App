@@ -1,0 +1,14 @@
+.Carousel{
+    height: 50%;
+    display: flex;align-items: center;
+    margin-top: 40px;
+}
+.Carousel-Item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
